@@ -39,7 +39,7 @@ Command                                                   | Description         
 `docker update --restart=no $(docker container ls -a -q)` | Remove auto-restart from all containers |
 
 Command                                            | Description                                           |
----------------------------------------------------|-------------------------------------------------------|--
+---------------------------------------------------|-------------------------------------------------------|
 `docker build -t <friendlyname> .`                 | Create image using this directory's Dockerfile        |
 `docker run -p 4000:80 <friendlyname>`             | Run "friendlyname" mapping port 4000 to 80            |
 `docker run -d -p 4000:80 <friendlyname>`          | Same thing, but in detached mode                      |
