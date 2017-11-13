@@ -26,7 +26,7 @@ Run `docker run hello-world`.  After a while, you should see a message "Hello fr
 
 ### Commands
 Command                                                   | Description                             |
-----------------------------------------------------------|-----------------------------------------|--
+----------------------------------------------------------|-----------------------------------------|
 `docker ps`                                               | List containers                         |
 `docker ps -a`                                            | List all containers                     |
 `docker container ls`                                     | List containers                         |
